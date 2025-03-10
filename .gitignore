@@ -20,5 +20,14 @@ docs.json
 __dummy.html
 docs/
 
-# Code coverage
+# Coverage files
 *.lst
+
+# Debug info
+*.pdb
+
+# Backup files
+*~
+
+# SPIR-V modules
+*.spv

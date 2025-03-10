@@ -1,0 +1,32 @@
+{
+    "name": "bindbc-spirvcross",
+    "description": "Dynamic binding to SPIRV-Cross",
+    "homepage": "https://github.com/gecko0307/bindbc-spirvcross",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    "copyright": "Copyright (C) 2025, Timur Gafarov",
+    
+    "dependencies": {
+        "bindbc-loader": "~>1.0"
+    },
+
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
+
+    "buildRequirements": [
+        "allowWarnings"
+    ],
+
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "library"
+        },
+        {
+            "name": "debug",
+            "targetType": "library"
+        }
+    ]
+}
