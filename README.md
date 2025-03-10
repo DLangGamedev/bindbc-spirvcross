@@ -1,5 +1,5 @@
 # BindBC-SPIRVCross
-BindBC binding to [SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross), a SPIR-V cross-compilation toolchain from Khronos Group.
+BindBC binding to [SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross), a SPIR-V decompilation and reflection toolchain from Khronos Group.
 
 ## Usage
 ```
