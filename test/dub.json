@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "description": "BindBC-SPIRVCross test",
+    "homepage": "https://github.com/gecko0307/bindbc-spirvcross",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    "copyright": "Copyright (C) 2025, Timur Gafarov",
+    
+    "dependencies": {
+        "bindbc-spirvcross": { "path": ".." }
+    },
+    
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
+    
+    "buildRequirements": [
+        "allowWarnings"
+    ]
+}
