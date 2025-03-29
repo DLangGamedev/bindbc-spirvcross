@@ -1,6 +1,9 @@
 # BindBC-SPIRVCross
 BindBC binding to [SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross), a SPIR-V decompilation and reflection toolchain from Khronos Group.
 
+[![DUB Package](https://img.shields.io/dub/v/bindbc-spirvcross.svg)](https://code.dlang.org/packages/bindbc-spirvcross)
+[![DUB Downloads](https://img.shields.io/dub/dm/bindbc-spirvcross.svg)](https://code.dlang.org/packages/bindbc-spirvcross)
+
 ## Usage
 ```
 dub add bindbc-spirvcross
