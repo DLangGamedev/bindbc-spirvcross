@@ -38,7 +38,7 @@ import loader = bindbc.loader.sharedlib;
 void main()
 {
     SPVCSupport spvcVersion = loadSPVC();
-    writeln("SPIRV-Cross version: ", spvcVersion);
+    writeln("Loaded library version: ", spvcVersion);
     
     if (loader.errors.length)
     {

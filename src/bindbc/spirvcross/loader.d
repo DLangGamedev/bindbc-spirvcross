@@ -45,7 +45,7 @@ private
     SPVCSupport loadedVersion;
 }
 
-void unloadGLSLang()
+void unloadSPVC()
 {
     if (lib != invalidHandle)
     {
